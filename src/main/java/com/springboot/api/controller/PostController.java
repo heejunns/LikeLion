@@ -9,7 +9,7 @@ import java.util.Map;
 @RequestMapping("/api/v1/post-api")
 public class PostController {
 
-    @RequestMapping( value = "/domain",method = RequestMethod.POST)
+    @RequestMapping( value = "/com/springboot/api/domain",method = RequestMethod.POST)
     public String postExample(){
         return "POST API 테스트";
     }
