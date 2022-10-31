@@ -4,7 +4,6 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
-
 public class AlgorithmExercise {
 
     public ArrayList<Integer> solution(int[] answers) {
@@ -45,7 +44,7 @@ public class AlgorithmExercise {
 
     public static void main(String[] args) {
         AlgorithmExercise algorithmExercise = new AlgorithmExercise();
-        int[] answers = {1,3,2,4,2};
+        int[] answers = {1,2,3,4,5};
         System.out.println(algorithmExercise.solution(answers));
     }
 }
